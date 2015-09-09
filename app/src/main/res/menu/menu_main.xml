@@ -1,17 +1,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
 
     <!-- Search, should appear as action button -->
-    <item android:id="@+id/action_search"
-          android:title="action_search"
-          android:icon="@drawable/ic_search"
+    <item android:id="@+id/koala_btn"
+          android:title="Koala"
+          android:icon="@drawable/ic_koala_24dp"
           app:showAsAction="ifRoom" />
 
     <!-- Settings, should always be in the overflow -->
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
-        android:orderInCategory="100"
-        app:showAsAction="never" />
+    <item android:id="@+id/penguin_btn"
+          android:title="Penguin"
+          android:icon="@drawable/ic_penguin_24dp"
+          app:showAsAction="never" />
 
+
+    <item android:id="@+id/other_btn"
+          android:title="Other"
+          android:icon="@drawable/ic_other_24dp"
+          app:showAsAction="never" />
 </menu>

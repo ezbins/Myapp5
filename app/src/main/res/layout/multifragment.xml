@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
     android:baselineAligned="false">
 
-    <Button
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Koala"
-        android:id="@+id/koala"
-        android:layout_gravity="top"
-        android:layout_weight="1" />
 
-    <Button
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Penguin"
-        android:id="@+id/penguin"
-        android:layout_gravity="top"
-        android:layout_weight="1" />
-
-    <Button
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Other"
-        android:id="@+id/other"
-        android:layout_gravity="top"
-        android:layout_weight="1" />
     </LinearLayout>
